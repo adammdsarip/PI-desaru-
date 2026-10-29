@@ -69,7 +69,7 @@ No third-party scripts are included. `script.js` emits these events:
 | `landing_page_view` | page load | `page` |
 | `whatsapp_cta_click` | any WhatsApp CTA click | `cta_location`, `number_configured` |
 
-`cta_location` values come from each button's `data-cta` attribute: `nav_enquire`, `hero_whatsapp`, `pricing_per_person`, `pricing_two_pax`, `faq_whatsapp`, `final_whatsapp`, `footer_whatsapp`, `sticky_whatsapp`.
+`cta_location` values come from each button's `data-cta` attribute: `nav_enquire`, `hero_whatsapp`, `pricing_per_person`, `pricing_two_pax`, `faq_whatsapp`, `mid_whatsapp`, `final_whatsapp`, `footer_whatsapp`, `sticky_whatsapp`.
 
 Events are pushed to `window.dataLayer` when it exists (for example, after you add Google Tag Manager) and also dispatched as a `pi:track` DOM event. Add `?debug` to the URL to log events to the console.
 
